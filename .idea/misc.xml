@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/NewsActivity.xml" value="0.1171875" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/activity_news.xml" value="0.264" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/fragment_article.xml" value="0.144" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/fragment_breaking_news.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/menu/bottom_navigation_nenu.xml" value="0.24427083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
