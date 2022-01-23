@@ -51,4 +51,23 @@
             android:name="article"
             app:argType="com.androiddevs.mvvmnewsapp.models.Article" />
     </fragment>
+    <fragment
+        android:id="@+id/loginActivity"
+        android:name="com.androiddevs.mvvmnewsapp.ui.LoginActivity"
+        android:label="LoginActivity" >
+        <action
+            android:id="@+id/action_loginActivity_to_regiserActivity"
+            app:destination="@id/regiserActivity" />
+        <action
+            android:id="@+id/action_loginActivity_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/regiserActivity"
+        android:name="com.androiddevs.mvvmnewsapp.ui.RegisterActivity"
+        android:label="RegiserActivity" >
+        <action
+            android:id="@+id/action_regiserActivity_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
 </navigation>

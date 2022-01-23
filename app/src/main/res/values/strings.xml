@@ -3,4 +3,6 @@
     <string name="search_news">Search news</string>
     <string name="saved_news">Saved news</string>
     <string name="breaking_news">Breaking news</string>
+    <string name="first_news">First News</string>
+    <string name="sign_up">sign up</string>
 </resources>

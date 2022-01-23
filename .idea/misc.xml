@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/androidNews/app/src/main/res/drawable/button.xml" value="0.26458333333333334" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/drawable/circle.xml" value="0.26458333333333334" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/drawable/input.xml" value="0.26458333333333334" />
         <entry key="..\:/Android/androidNews/app/src/main/res/layout/NewsActivity.xml" value="0.1171875" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Android/androidNews/app/src/main/res/layout/activity_news.xml" value="0.264" />
+        <entry key="..\:/Android/androidNews/app/src/main/res/layout/activity_signup.xml" value="0.264" />
         <entry key="..\:/Android/androidNews/app/src/main/res/layout/fragment_article.xml" value="0.144" />
         <entry key="..\:/Android/androidNews/app/src/main/res/layout/fragment_breaking_news.xml" value="0.24427083333333333" />
         <entry key="..\:/Android/androidNews/app/src/main/res/menu/bottom_navigation_nenu.xml" value="0.24427083333333333" />
