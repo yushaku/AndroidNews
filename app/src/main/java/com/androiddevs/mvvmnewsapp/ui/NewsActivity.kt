@@ -2,6 +2,10 @@ package com.androiddevs.mvvmnewsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
@@ -10,6 +14,7 @@ import com.androiddevs.mvvmnewsapp.db.ArticleDatabase
 import com.androiddevs.mvvmnewsapp.ui.NewsViewModelProviderFactory
 import com.androiddevs.mvvmnewsapp.repository.NewsRepository
 import kotlinx.android.synthetic.main.activity_news.*
+import kotlinx.android.synthetic.main.activity_signup.*
 
 class NewsActivity : AppCompatActivity() {
 
@@ -27,6 +32,5 @@ class NewsActivity : AppCompatActivity() {
         //set up navigation -----------------------------------------------------------------------------------------------
         bottomNavigationView.setupWithNavController(newsNavHostFragment.findNavController())
     }
-
 
 }
