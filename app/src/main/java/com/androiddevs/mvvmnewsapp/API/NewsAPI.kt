@@ -8,6 +8,7 @@ import retrofit2.http.Query
 
 interface NewsAPI {
 
+    //suspend function là một function có khả năng được started, pause và resume
     @GET("v2/top-headlines")
     suspend fun getBreakingNews(
         @Query("country") countryCode: String = "us",

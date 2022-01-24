@@ -8,7 +8,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInstance {
 
+    //companion object.Đối tượng này sẽ được chia sẻ giữa tất cả các trường hợp của lớp, giống như một trường tĩnh trong Java.
+    //Do đó, chúng có thể được sử dụng để thực hiện factory phương thức patterns
     companion object{
+
+        /* có thể log lại nhật ký để thuận tiện debugging */
         private  val retrofit by lazy{
             val logging = HttpLoggingInterceptor()
             logging.setLevel(HttpLoggingInterceptor.Level.BODY)

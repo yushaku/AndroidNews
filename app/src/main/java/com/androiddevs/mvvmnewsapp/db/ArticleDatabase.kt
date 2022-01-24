@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.*
 import com.androiddevs.mvvmnewsapp.models.Article
 
+// tạo 1 instance cho database - like singleton pattern
 @Database(
     entities = [Article::class],
     version = 1

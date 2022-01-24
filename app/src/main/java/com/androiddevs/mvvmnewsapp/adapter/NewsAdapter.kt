@@ -16,6 +16,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>(){
 
     inner class ArticleViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
+    // fun để so sánh item cũ và item mới để binding lại data lên viewholder
     private val differCallback = object : DiffUtil.ItemCallback<Article>(){
 
         override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
@@ -58,6 +59,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>(){
         return differ.currentList.size
     }
 
+    // khi ấn vào item mở ra chế dộ xem webview
     private var onItemClickListener: ((Article)-> Unit) ?= null
 
     fun setOnItemClickListener(listener: (Article) -> Unit){
